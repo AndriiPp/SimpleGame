@@ -19,7 +19,7 @@ final class Cloud: SKSpriteNode, GameBackgroundSpritable {
         let cloud = Cloud(imageNamed: cloudImageName)
         cloud.setScale(randomScaleFactor)
         cloud.position = point
-        cloud.zPosition = 10
+        cloud.zPosition = randomScaleCloud
         cloud.run(move(from: point))
         return cloud
     }
@@ -32,6 +32,11 @@ final class Cloud: SKSpriteNode, GameBackgroundSpritable {
     fileprivate static var randomScaleFactor: CGFloat {
         let distribution = GKRandomDistribution(lowestValue: 20, highestValue: 30)
         let randomNuber = CGFloat(distribution.nextInt())/10
+        return randomNuber
+    }
+    fileprivate static var randomScaleCloud: CGFloat {
+        let distribution = GKRandomDistribution(lowestValue: 18, highestValue: 22)
+        let randomNuber = CGFloat(distribution.nextInt())
         return randomNuber
     }
     fileprivate static func move(from point: CGPoint) -> SKAction {

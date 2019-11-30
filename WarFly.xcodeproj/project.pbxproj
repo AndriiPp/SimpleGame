@@ -17,6 +17,7 @@
 		7E07322123905B2000372F3E /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E07322023905B2000372F3E /* Background.swift */; };
 		7E07322323905DCE00372F3E /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E07322223905DCE00372F3E /* Island.swift */; };
 		7E0732252390655B00372F3E /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0732242390655B00372F3E /* Cloud.swift */; };
+		7EFF78032392F3F900FCDE2E /* PlayerPlane.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF78022392F3F800FCDE2E /* PlayerPlane.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7E07322023905B2000372F3E /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		7E07322223905DCE00372F3E /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		7E0732242390655B00372F3E /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		7EFF78022392F3F800FCDE2E /* PlayerPlane.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerPlane.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				7E073207239056D700372F3E /* AppDelegate.swift */,
 				7E07320D239056D700372F3E /* GameScene.swift */,
 				7E07320F239056D700372F3E /* GameViewController.swift */,
+				7EFF78022392F3F800FCDE2E /* PlayerPlane.atlas */,
 				7E073211239056D700372F3E /* Main.storyboard */,
 				7E073214239056DB00372F3E /* Assets.xcassets */,
 				7E073216239056DB00372F3E /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E073213239056D700372F3E /* Main.storyboard in Resources */,
+				7EFF78032392F3F900FCDE2E /* PlayerPlane.atlas in Resources */,
 				7E073215239056DB00372F3E /* Assets.xcassets in Resources */,
 				7E073218239056DB00372F3E /* LaunchScreen.storyboard in Resources */,
 			);
